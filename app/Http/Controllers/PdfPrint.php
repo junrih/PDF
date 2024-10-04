@@ -113,10 +113,10 @@ class PdfPrint extends Controller
     
 
     $fpdf -> Line(20, 270, 75, 270);
-    $fpdf -> Text(28, 274, "Employee Signature", 0, 1,'C');
+    $fpdf -> Text(28, 274, "Employee Signature");
 
     $fpdf -> Line(140, 270, 195, 270);
-    $fpdf -> Text(150, 274, "Employer Signature", 0, 1,'C');
+    $fpdf -> Text(150, 274, "Employer Signature");
 
 
 
